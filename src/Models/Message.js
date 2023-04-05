@@ -15,8 +15,9 @@ const messageScheema = new mongoose.Schema({
     default: 1000,
   },
   message: {
-    text: { type: String, required: true}
+    text: { type: String, required: true },
   },
 });
+// teste
 
 module.exports = mongoose.model("Message", messageScheema);
