@@ -15,3 +15,5 @@ app.listen(port, () => {
 });
 const connectToDataBase = require("./database");
 connectToDataBase();
+
+// teste;
